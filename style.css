@@ -16,7 +16,6 @@ body {
   min-height: 45vh;
   width: 40vh;
 }
-
 form {
   margin: 2rem 0 1rem 0;
 }
@@ -35,7 +34,6 @@ form input {
   padding-left: 0.5rem;
   font-weight: bolder;
 }
-
 .dropdown {
   display: flex;
   justify-content: space-between;
@@ -49,7 +47,6 @@ form input {
 .select-container img {
   max-width: 2rem;
 }
-
 .select-container {
   display: flex;
   justify-content: center;

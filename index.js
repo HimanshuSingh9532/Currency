@@ -3,7 +3,8 @@ const BASE_URL =
 
 const dropdowns = document.querySelectorAll(".dropdown select");
 
-const btn = document.querySelector("from button");
+
+const btn = document.querySelectorAll("from button");
 const fromCurr = document.querySelector(".from select");
 const toCurr = document.querySelector(".to select");
 
@@ -35,8 +36,8 @@ const updateFlag = (element) => {
 btn.addEventListener("click", async(evt) => {
   evt.preventDefault();
   let amount = document.querySelector(".amount input");
-  let amtval = amount.value;
-  if (amtval === "" || amtval < 1) {
+  let amtVal = amount.value;
+  if (amtVal === "" || amtval < 1) {
     amtval = 1;
     amount.value = "1";
   }
